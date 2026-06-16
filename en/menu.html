@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu — Daily Dose Coffee</title>
+  <meta name="description" content="Explore our menu of specialty coffee, espresso drinks, and pastries at Daily Dose Coffee in Temara.">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo"><img src="../assets/images/logo.png" alt="Daily Dose Coffee" class="logo-img" style="display:none;height:40px;width:auto;"><span class="logo-text">Daily <span>Dose</span></span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="about.html">Our Story</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <div class="lang-switcher">
+          <a href="menu.html" class="active">EN</a>
+          <a href="../fr/menu.html">FR</a>
+          <a href="../ar/menu.html">عربي</a>
+        </div>
+        <button class="mobile-toggle" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section" style="padding-top:130px;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Brew</span>
+        <h2 class="section-title">Our Menu</h2>
+        <p class="section-desc">Crafted with care, served with a smile. Something for every mood.</p>
+      </div>
+
+      <div class="menu-categories">
+        <a href="#" class="menu-cat-btn active" data-cat="all">All</a>
+        <a href="#" class="menu-cat-btn" data-cat="coffee">Coffee & Espresso</a>
+        <a href="#" class="menu-cat-btn" data-cat="signature">Signature Drinks</a>
+        <a href="#" class="menu-cat-btn" data-cat="pastries">Pastries & Bites</a>
+      </div>
+
+      <div class="menu-grid" id="menuGrid">
+        <!-- Coffee -->
+        <div class="menu-item" data-cat="coffee">
+          <div class="menu-item-info">
+            <div class="menu-item-name">Espresso</div>
+            <div class="menu-item-desc">Single-origin, pulled to perfection</div>
+          </div>
+          <span class="menu-item-price">12 DH</span>
+        </div>
+        <div class="menu-item" data-cat="coffee">
+          <div class="menu-item-info">
+            <div class="menu-item-name">Double Espresso</div>
+            <div class="menu-item-desc">Double shot, extra bold</div>
+          </div>
+          <span class="menu-item-price">18 DH</span>
+        </div>
+        <div class="menu-item" data-cat="coffee">
+          <div class="menu-item-info">
+            <div class="menu-item-name">Americano</div>
+            <div class="menu-item-desc">Espresso with hot water — smooth and classic</div>
+          </div>
+          <span class="menu-item-price">15 DH</span>
+        </div>
+        <div class="menu-item" data-cat="coffee">
+          <div class="menu-item-info">
+            <div class="menu-item-name">Café Latte</div>
+            <div class="menu-item-desc">Espresso with steamed milk, velvety finish</div>
+          </div>
+          <span class="menu-item-price">20 DH</span>
+        </div>
+        <div class="menu-item" data-cat="coffee">
+          <div class="menu-item-info">
+            <div class="menu-item-name">Cappuccino</div>
+            <div class="menu-item-desc">Espresso, steamed milk, thick foam</div>
+          </div>
+          <span class="menu-item-price">20 DH</span>
+        </div>
+        <div class="menu-item" data-cat="coffee">
+          <div class="menu-item-info">
+            <div class="menu-item-name">Flat White</div>
+            <div class="menu-item-desc">Double ristretto with microfoam</div>
+          </div>
+          <span class="menu-item-price">22 DH</span>
+        </div>
+        <div class="menu-item" data-cat="coffee">
+          <div class="menu-item-info">
+            <div class="menu-item-name">Mocha</div>
+            <div class="menu-item-desc">Espresso with chocolate and steamed milk</div>
+          </div>
+          <span class="menu-item-price">25 DH</span>
+        </div>
+        <div class="menu-item" data-cat="coffee">
+          <div class="menu-item-info">
+            <div class="menu-item-name">Pour Over</div>
+            <div class="menu-item-desc">Single-origin, hand-poured to order</div>
+          </div>
+          <span class="menu-item-price">25 DH</span>
+        </div>
+
+        <!-- Signature Drinks -->
+        <div class="menu-item" data-cat="signature">
+          <div class="menu-item-info">
+            <div class="menu-item-name">Moroccan Spice Latte</div>
+            <div class="menu-item-desc">Espresso with local honey, cinnamon & orange blossom</div>
+          </div>
+          <span class="menu-item-price">28 DH</span>
+        </div>
+        <div class="menu-item" data-cat="signature">
+          <div class="menu-item-info">
+            <div class="menu-item-name">Temara Cold Brew</div>
+            <div class="menu-item-desc">12-hour steeped, served over ice</div>
+          </div>
+          <span class="menu-item-price">25 DH</span>
+        </div>
+        <div class="menu-item" data-cat="signature">
+          <div class="menu-item-info">
+            <div class="menu-item-name">Date Shake</div>
+            <div class="menu-item-desc">Blended with Medjool dates & milk</div>
+          </div>
+          <span class="menu-item-price">22 DH</span>
+        </div>
+        <div class="menu-item" data-cat="signature">
+          <div class="menu-item-info">
+            <div class="menu-item-name">Iced Matcha Latte</div>
+            <div class="menu-item-desc">Ceremonial matcha with oat milk</div>
+          </div>
+          <span class="menu-item-price">28 DH</span>
+        </div>
+
+        <!-- Pastries -->
+        <div class="menu-item" data-cat="pastries">
+          <div class="menu-item-info">
+            <div class="menu-item-name">Croissant</div>
+            <div class="menu-item-desc">Buttery, flaky, baked fresh daily</div>
+          </div>
+          <span class="menu-item-price">12 DH</span>
+        </div>
+        <div class="menu-item" data-cat="pastries">
+          <div class="menu-item-info">
+            <div class="menu-item-name">Pain au Chocolat</div>
+            <div class="menu-item-desc">Croissant dough with dark chocolate</div>
+          </div>
+          <span class="menu-item-price">14 DH</span>
+        </div>
+        <div class="menu-item" data-cat="pastries">
+          <div class="menu-item-info">
+            <div class="menu-item-name">M'smen</div>
+            <div class="menu-item-desc">Traditional Moroccan layered pancake</div>
+          </div>
+          <span class="menu-item-price">10 DH</span>
+        </div>
+        <div class="menu-item" data-cat="pastries">
+          <div class="menu-item-info">
+            <div class="menu-item-name">Briouat</div>
+            <div class="menu-item-desc">Fried pastry with almond & honey</div>
+          </div>
+          <span class="menu-item-price">12 DH</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo"><img src="../assets/images/logo.png" alt="Daily Dose Coffee" class="logo-img" style="display:none;height:40px;width:auto;"><span class="logo-text">Daily <span>Dose</span></span></a>
+          <p class="footer-desc">Temara's neighbourhood coffee shop. Good coffee, good company, no rush.</p>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">Our Story</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div>
+          <h4>Hours</h4>
+          <div class="footer-links">
+            <span>Mon–Sat: 7:00 – 21:00</span>
+            <span>Sunday: 9:00 – 20:00</span>
+          </div>
+        </div>
+        <div>
+          <h4>Follow Us</h4>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram">&#9825;</a>
+            <a href="#" aria-label="Facebook">f</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Daily Dose Coffee. All rights reserved.</span>
+        <span>Temara, Morocco</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+  <script>
+    document.querySelectorAll('.menu-cat-btn').forEach(function(btn) {
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        var cat = this.getAttribute('data-cat');
+        document.querySelectorAll('.menu-cat-btn').forEach(function(b) { b.classList.remove('active'); });
+        this.classList.add('active');
+        document.querySelectorAll('.menu-item').forEach(function(item) {
+          if (cat === 'all' || item.getAttribute('data-cat') === cat) {
+            item.style.display = 'flex';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
